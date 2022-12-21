@@ -71,3 +71,43 @@ header {
     color: var(--text-white);
     font-weight: 600;
 }
+
+/* Main */
+
+main {
+    min-height: 100vh;
+    padding-top: 3rem;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.intro h2 {
+    font-size: 3rem;
+    color: var(--text-white);
+}
+
+.intro p {
+    color: var(--text-gray);
+}
+
+.hero-card {
+    width: 300px;
+    height: 400px;
+    background-color: var(--secundary);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    margin: 20px;
+}
